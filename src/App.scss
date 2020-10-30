@@ -1,0 +1,22 @@
+
+@import './Layout/styleVariables.scss';
+.App {
+  text-align: center;
+}
+
+input{
+  margin:10px;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    background-color: $background-color;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}

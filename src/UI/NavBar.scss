@@ -1,0 +1,30 @@
+@import "../Layout/styleVariables.scss";
+
+.SubNavBarContainer {
+    margin: 0 auto;
+    max-width: calc(100% - 5em);
+    width: 100em;
+    
+    display: flex;
+    align-items: center;
+  }
+
+
+.LogoNavBar{
+  display: block;
+  margin-left: 64px;
+  height: 70px;
+  width: 70px;
+  background-color: $accent-color;
+
+}
+.NavBar-control{
+  height: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  display: flex;
+}
+
+.NavBar-links{
+  margin: 10px;
+}
