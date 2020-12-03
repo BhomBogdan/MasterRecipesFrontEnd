@@ -1,57 +1,68 @@
 @import "../Layout/styleVariables.scss";
 
-
-.RecipeFormContainer{
-    width: 100%;
+.RecipeFormContainer {
+  width: 100%;
 }
-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.WelcomeText{
-   margin-bottom:50px;
-}
-.WelcomeText>h1{
-    font-size: 40px;
-}
-.WelcomeText>h3{
-    color:#646f79;
-    font-weight: 300;
-    font-size: 20px;
-}
-.RecipeFormSubContainer{
-    margin: 0 auto;
-    text-align: center;
-    display: flex; 
-    flex-direction: column;
-    margin-top: 50px;
-    max-width: calc(100% - 5em);
-    width: 70em;
-    margin-bottom: 100px;
-}
-input[type=text]{
-    border-radius: 20px;
-    font-size: 20px;
-    height: 40px;
-    padding:0 1em;
-    width: 400px;
-    border: solid 1px #e5e5e5;
-    background-color: #f8f8f8;
-}
-input[type=text]:focus{
-    border-radius: 20px;
-    outline: none;
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.buttonForm{
-    background-color: $accent-color;
-    border-radius: 20px;
-    width: 150px;
-    border: solid 1px #e5e5e5;
-    height: 45px;
-    color:white;
-    font-weight: 600;
-    font-size: 20px;
+.WelcomeText {
+  margin-bottom: 50px;
+}
+.WelcomeText > h1 {
+  font-size: 40px;
+}
+.Recipe-Submit {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  align-self: flex-end;
+}
+.WelcomeText > h3 {
+  color: #646f79;
+  font-weight: 300;
+  font-size: 20px;
+}
+.RecipeFormSubContainer {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  max-width: calc(100% - 5em);
+  width: 70em;
+  margin-bottom: 100px;
+}
+input[type="text"] {
+  border-radius: 20px;
+  font-size: 20px;
+  height: 40px;
+  padding: 0 1em;
+  width: 400px;
+  border: solid 1px #e5e5e5;
+  background-color: #f8f8f8;
+}
+input[type="text"]:focus {
+  border-radius: 20px;
+  outline: none;
+}
+
+.buttonForm {
+  background-color: $accent-color;
+  border-radius: 20px;
+  width: 150px;
+  border: solid 1px #e5e5e5;
+  height: 45px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.RecipeFormCurrentSub {
+  display: flex;
+  flex-direction: column;
 }

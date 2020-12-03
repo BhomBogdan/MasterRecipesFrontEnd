@@ -1,10 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const FooterBar = () =>{
-
-    return(
-            <footer> asdf</footer>
-    )
-    
-
-};export default FooterBar;
+const FooterBar = () => {
+  return <footer> </footer>;
+};
+export default FooterBar;

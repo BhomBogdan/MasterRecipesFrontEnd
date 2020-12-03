@@ -1,0 +1,87 @@
+@import "../Layout/styleVariables.scss";
+.RecipeListParent {
+  background-color: #f5f5f5;
+}
+.RecipesListc {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: calc(100% - 5em);
+  width: 70em;
+}
+.WrapRecipeBox {
+  width: 300px;
+
+  height: 280px;
+  border-radius: 20px;
+
+  background-color: #f5f5f5;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.RecipeBox {
+  margin: 20px;
+  transition: transform 0.2s;
+}
+.RecipeBox:hover {
+  transform: scale(1.05);
+}
+//IMAGE CONTAINER
+.RecipeImage {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  background-color: $accent-color;
+  height: 160px;
+}
+
+//Tittle
+.tittleRecipe {
+  padding: 10px;
+  font-size: 100%;
+}
+
+.TypeOfFood {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+}
+.type {
+  margin-left: 10px;
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+
+  display: block;
+}
+.vegan {
+  background-color: #3bb273;
+}
+.GlutenFree {
+  background-color: #e1bc29;
+}
+.FishMeat {
+  background-color: #ee7651;
+}
+.RedMeat {
+  background-color: #aa3a2c;
+}
+//Details Recipe Section
+.Details {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+.TimePrep,
+.Difficulty {
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+.easy {
+  color: white;
+  background-color: #3bb273;
+}

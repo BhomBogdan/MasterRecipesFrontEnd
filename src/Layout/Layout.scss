@@ -1,9 +1,8 @@
-
-@import './styleVariables.scss';
-body{
-    margin: 0;
-    background-color: $background-color;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+@import "./styleVariables.scss";
+body {
+  margin: 0;
+  background-color: $background-color;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
